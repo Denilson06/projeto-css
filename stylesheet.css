@@ -1,0 +1,273 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+#H {
+    width: 79px;
+
+
+    margin-top: 44px;
+    margin-right: 24px;
+
+    margin-bottom: 144px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #989D9C;
+
+}
+
+#A {
+    width: 90px;
+    height: 29px;
+
+    margin-top: 44px;
+    margin-right: 24px;
+    margin-bottom: 144px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #989D9C;
+}
+
+#P {
+    width: 90px;
+    height: 29px;
+
+    margin-top: 44px;
+    margin-right: 24px;
+    margin-bottom: 144px;
+    font-weight: 600;
+
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #989D9C;
+}
+
+#S {
+    width: 90px;
+    height: 29px;
+
+    margin-top: 44px;
+    margin-right: 24px;
+    margin-bottom: 144px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #989D9C;
+}
+
+#C {
+    width: 90px;
+    height: 29px;
+
+    margin-top: 44px;
+    margin-right: 24px;
+    margin-bottom: 144px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #989D9C;
+}
+
+#log-in {
+    width: 138px;
+    height: 41px;
+    margin-top: 44px;
+
+    border-radius: 30px;
+    border: 0;
+
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
+
+    font-weight: 600;
+    color: white;
+    background: #665AE1;
+
+}
+
+img {
+    Width: 568px;
+    Height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 89px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    margin-top: 190px;
+    color: #515151;
+}
+
+
+
+h2 {
+    font-weight: 588;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 400px;
+    color: #848484;
+}
+
+#Explore {
+    background: #adff00;
+    margin-top: 80px;
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    border: none;
+
+    cursor: pointer;
+
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+}
+
+
+@media screen and (max-width:900px) {
+    .container-left {
+        margin: auto;
+        width: auto;
+        margin-left: 10px;
+
+    }
+
+
+    p {
+        display: none;
+    }
+
+    #Explore {
+        position: static;
+        width: 300px;
+        display: inline-block;
+        margin: auto;
+        margin-left: 14px;
+        margin-top: 70px;
+    }
+
+    h1 {
+        font-weight: 700;
+        width: 200px;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0 14px;
+    }
+
+    h2 {
+        font-weight: 300;
+        width: 250px;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 20px 0 0 14px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .container-left {
+        display: block;
+        white-space: pre-line;
+        padding: 0;
+    }
+
+    #Log-in {
+        margin: 10px 0 0 14px;
+    }
+
+    img {
+        position: static;
+        width: 354px;
+        display: inline-block;
+        margin: auto;
+        margin-left: 14px;
+        margin-top: 70px;
+    }
+
+    h1 {
+        font-weight: 900;
+        width: 263px;
+        font-size: 50px;
+        line-height: 61px;
+        margin: auto;
+
+    }
+
+    h2 {
+        width: 232px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        margin: auto;
+
+    }
+
+    #Explore {
+
+        margin: auto;
+
+
+    }
+
+    #H {
+        margin: 0 0 5px 0;
+        display: inline-block;
+    }
+
+    #A {
+        margin: 0 0 5px 0;
+        display: inline-block;
+    }
+
+    #P {
+        margin: 0 0 5px 0;
+        display: inline-block;
+    }
+
+    #S {
+        margin: 0 0 5px 0;
+        display: inline-block;
+
+    }
+
+
+}
